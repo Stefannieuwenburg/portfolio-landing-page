@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./components/Navigation";
 
-function Nav() {
+function Navbar() {
     return (
         <div className="container">
             <Navigation />
@@ -10,4 +10,4 @@ function Nav() {
     );
 }
 
-export default Nav;
+export default Navbar;

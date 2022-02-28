@@ -5,7 +5,7 @@ import wd3 from "../img/wd3.jpg";
 import wd4 from "../img/wd4.jpg";
 import wd5 from "../img/wd5.jpg";
 
-import "../styles/Projects.scss";
+
 
 
 export default function Projects() {
@@ -29,34 +29,34 @@ export default function Projects() {
     };
     return (
         <div className="works">
-            <div className="work__section">
+            <div className="work-section">
                 <div className="cards">
-                    <img src={wd0} alt="" />
+                    <img src={wd0} alt="img" />
                     <button onClick={proj1}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd1} alt="" />
+                    <img src={wd1} alt="img" />
                     <button onClick={proj2}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd2} alt="" />
+                    <img src={wd2} alt="img" />
                     <button onClick={proj3}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd3} alt="" />
+                    <img src={wd3} alt="img" />
                     <button onClick={proj4}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd4} alt="" />
+                    <img src={wd4} alt="img" />
                     <button onClick={proj5} >Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd5} alt="" />
+                    <img src={wd5} alt="img" />
                     <button onClick={proj6} >Code</button>
                 </div>
             </div>

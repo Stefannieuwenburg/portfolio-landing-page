@@ -1,13 +1,251 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background:linear-gradient(90deg, #000000, #3f3e3f); 
+  font-family: "Poppins", sans-serif,"Droid Sans";
+  color: #fbfbfb;
+  text-shadow: 1px 1px 1px #333;
+  overflow-wrap: break-word;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fbfbfb;
+}
+a:hover {
+  text-decoration: underline;
+  color:rgb(248, 211, 0 );
+}
+.logo {
+  display: inline-block;
+  height: 23px;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+.btn {
+  font-weight: 600;
+  color: dark;
+  font-family: inherit;
+  background-color: #fbfbfb;
+  border-color: #7952b3;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  transition: 0.3s ease;
+  box-shadow: 2px 2px 7px 1px #666;
+}
+
+.btn:hover {
+  background: #3f3e3f;
+  transition: 0.3s ease;
+}
+button {
+  color:rgb(248, 211, 0 );
+  background: none;
+  border: 3px solid rgb(248, 211, 0);
+  padding: 5px 30px;
+  border-radius: 60px;
+
+}
+button:hover {
+  background: #3f3e3f;
+  transition: 0.3s ease;
+}
+
+.nav {
+  font-size: 1.4rem;
+  padding-top: 4rem;
+  padding-left: 6rem;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  color: #fbfbfb;
+}
+
+.nav .nav-links {
+  position: relative;
+  right: -400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .nav-links li {
+  margin-left: 2rem;
+}
+
+.nav .nav-links li a:hover {
+  opacity: 0.5;
+}
+
+.nav .nav-links .btn {
+  margin-left: 2rem;
+}
+
+.nav .fa-bars,
+.nav .fa-times {
+  cursor: pointer;
+  display: none;
+}
+
+.nav .nav-links.active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 3, 3, 0.7);
+  padding: 15vh 0;
+  font-size: 2rem;
+  z-index: 2;
+  
+}
+/* the close class will hide the bars  */
+.nav .fa-bars.close {
+  display: none;
+}
+
+/* the open class will show the X  */
+
+.nav .fa-times.open {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  z-index: 2;
+  color:rgb(248, 211, 0 );
+}
+
+.container {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+h5{
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 4rem 0;
+  color: #ddd;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+input {
+  margin-bottom: 1.8rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+@keyframes fadeIn {
+  0% {
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+  }
+}
+
+header,
+section {
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  max-width: 700px;
+  font-size: 25px;
+}
+.tech-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 20px;
+  color: white;
+}
+
+p{
+  color:rgb(248, 211, 0 );
+}
+
+
+@media screen and (max-width: 1440px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  header,
+  section {
+    margin-left: 2rem;
+  }
+  .nav {
+    padding-left: 2rem;
+  }
+  .nav .nav-links {
+    display: none;
+  }
+  .nav .fa-bars {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    margin: 2rem 0;
+  }
+  label {
+    font-size: 0.9rem;
+  }
+  input {
+    margin-bottom: 1.5rem;
+  }
 }

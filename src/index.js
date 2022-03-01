@@ -9,7 +9,7 @@ import Services from "./components/Technologies";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import Erroppage from "./components/Errorpage"
+
 
 
 ReactDOM.render(
@@ -22,7 +22,6 @@ ReactDOM.render(
                 <Route path="About" element={<About />} />
                 <Route path="Contact" element={<Contact />} />
                 <Route path="Projects" element={<Projects />} />
-                <Route path="*" element={<Erroppage />} />
             </Route>
         </Routes>
     </Router>,

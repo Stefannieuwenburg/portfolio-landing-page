@@ -7,8 +7,8 @@ export default function Technologies() {
             <h1>Technologies</h1>
             <br />
             <h5>
-                I have worked with a range a technologies in the web
-                development world. From Front-End to Back-end plus Design
+                I have worked with a range a technologies in the web development
+                world. From Front-End to Back-end plus Design
             </h5>
             <br />
             <FaReact style={{ color: "blue" }} />
@@ -18,25 +18,50 @@ export default function Technologies() {
             <br /> Css
             <br /> Scss
             <br /> Bootstrap
+            <br /> Redux
             <br /> React.js
             <br /> Github
             <br />
+            Node.js
+            <br />
+            Npm
+            <br />
+            API
+            <br />
+            Scrum
+            <br />
+            Jest
             <FaDatabase style={{ color: "green" }} />
             Back-End Experience with:
             <br />
             <br />
             Sqlite
-            <br /> Database
-            <br /> Django
-            <br /> Flask
-            <br /> Python
+            <br /> SQL Database
+            <br /> ORM
             <br />
+            Django
+            <br />
+            Flask
+            <br />
+            Python
+            <br />
+            VPS
+            <br />
+            APT
+            <br />
+            WSGI and Gunicorn
             <FaTools style={{ color: "red" }} />
             Tools Experience with:
+            <br />
+            Github
             <br />
             Figma
             <br />
             Visual Studio code
+            <br />
+            Slack
+            <br />
+            POSTman
             <br />
         </div>
     );

@@ -5,7 +5,7 @@ export default function About() {
         <section>
             <h1>Wie is Stefan Nieuwenburg</h1>
             <br />
-            <h3>Ik ben Full Stack web Developer.</h3><br/> ik werk graag met moderne
+            <h3>Stefan is een Full Stack web Developer.</h3><br/> ik werk graag met moderne
             javascript en libraries zoals React.jen Redux-toolkit. In mijn vrije
             tijd houd ik er van om me zelf nog meer te ontwikkelen. ook vind ik
             het erg leuk om kleine projecten te doen voor hobby clubs die wel

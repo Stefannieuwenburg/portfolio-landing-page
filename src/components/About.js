@@ -5,16 +5,18 @@ export default function About() {
         <section>
             <h1>Wie is Stefan Nieuwenburg</h1>
             <br />
-            <h3>Stefan is een Full Stack web Developer.</h3><br/> ik werk graag met moderne
-            javascript en libraries zoals React.jen Redux-toolkit. In mijn vrije
-            tijd houd ik er van om me zelf nog meer te ontwikkelen. ook vind ik
-            het erg leuk om kleine projecten te doen voor hobby clubs die wel
-            een nieuwe React web site kunnen gebruiken. het liefst werk ik in een
-            klein team verband zo kan je veel en snel van elkaar leren. ook vind
-            ik het erg leuk om in nieuwen technieken te duiken zo als Vite en
-            Next van react. daar naast volg ik ook nog vervolg opleiding bij
-            freeCodeCamp. Ze hebben daar erg veel online opleidingen die mijn
-            erg aanspreken.
+            <h3>Stefan is een Full Stack web Developer.</h3>
+            <br />
+            Stefan heeft van zijn hobby zijn werk gemaakt. Waarbij hij zich
+            heeft ontwikkeld in een specialist op het gebied van het uitwerken
+            en uitvoeren van moderne kleinschalige websites. Deze websites zijn
+            reactief en interactief door gebruik van onder andere JavaScript en
+            Libraries zoals React.js en Redux-toolkit. Binnen zijn professie
+            specialiseert hij zich vooral in kleinere projecten voor hobby
+            clubs. In klein team verband kan Stefan in een snel tempo de website
+            moderniseren met toepassing van React.js Stefan gaat graag de
+            uitdaging aan om nieuwe technieken te gebruiken, zoals Vite en Next
+            van React.
         </section>
     );
 }

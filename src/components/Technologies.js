@@ -6,67 +6,52 @@ export default function Technologies() {
         <>
             <div className="tech-background">
                 <h1>Technologies</h1>
-                
+
                 <h5>
-                    I have worked with a range a technologies in the web development
-                    world. From Front-End to Back-end plus Design
+                    I have worked with a range a technologies in the web
+                    development world. From Front-End to Back-end plus Design
                 </h5>
-            </div>   
-            
+            </div>
+
             <section className="description">
-                <FaReact style={{ color: "blue" }} />
-                Front-End Experience with:
-                <br />
-                <br /> Html 5
-                <br /> Css
-                <br /> Scss
-                <br /> Bootstrap
-                <br /> Redux
-                <br /> React.js
-                <br /> Github
-                <br />
-                Node.js
-                <br />
-                Npm
-                <br />
-                API
-                <br />
-                Scrum
-                <br />
-                Jest
-                <FaDatabase style={{ color: "green" }} />
-                Back-End Experience with:
-                <br />
-                <br />
-                Sqlite
-                <br /> SQL Database
-                <br /> ORM
-                <br />
-                Django
-                <br />
-                Flask
-                <br />
-                Python
-                <br />
-                VPS
-                <br />
-                APT
-                <br />
-                WSGI and Gunicorn
-                <FaTools style={{ color: "red" }} />
-                Tools Experience with:
-                <br />
-                <br />
-                Github
-                <br />
-                Figma
-                <br />
-                Visual Studio code
-                <br />
-                Slack
-                <br />
-                POSTman
-                <br />
+                <ul>
+                    <FaReact style={{ color: "blue" }} />
+                    <p>Front-End Experience with:</p>
+                    <li>Html5</li>
+                    <li>Css</li>
+                    <li>Scss</li>
+                    <li>Bootstrap</li>
+                    <li>Redux</li>
+                    <li>React.js</li>
+                    <li>Github</li>
+                    <li>Node.js</li>
+                    <li>Npm</li>
+                    <li>API</li>
+                    <li>Scrum</li>
+                    <li>Jest</li>
+                </ul>
+                <ul>
+                    <FaDatabase style={{ color: "green" }} />
+                    <p>Back-End Experience with:</p>
+                    <li>Sqlite</li>
+                    <li>SQL Database</li>
+                    <li>ORM</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>Python</li>
+                    <li>VPS</li>
+                    <li>APT</li>
+                    <li>WSGI and Gunicorn</li>
+                </ul>
+                <ul>
+                    <FaTools style={{ color: "red" }} />
+                    <p>Tools Experience with:</p>
+                    <li>Github</li>
+                    <li>Figma</li>
+                    <li>Visual Studio code</li>
+                    <li>Slack</li>
+                    <li>POSTman</li>
+                </ul>
             </section>
         </>
     );

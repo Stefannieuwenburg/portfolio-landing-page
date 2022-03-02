@@ -10,6 +10,7 @@ export default function Home() {
                 I can provide clean code and perfect design. I can also make the
                 website more interactive.
             </p>
+            <br/>
             <Link to="/about">
                 <button>About me</button>
             </Link>

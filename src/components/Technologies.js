@@ -56,6 +56,7 @@ export default function Technologies() {
                 <FaTools style={{ color: "red" }} />
                 Tools Experience with:
                 <br />
+                <br />
                 Github
                 <br />
                 Figma

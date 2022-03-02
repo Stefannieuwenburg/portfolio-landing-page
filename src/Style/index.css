@@ -74,13 +74,13 @@ button:hover {
   font-size: 1.4rem;
   padding-top: 4rem;
   padding-left: 6rem;
-  color: #fbfbfb;
+  color: #ffffff;
   display: flex;
   align-items: center;
 }
 
 .nav a {
-  color: #fbfbfb;
+  color: #ffffff;
 }
 
 .nav .nav-links {
@@ -136,7 +136,7 @@ button:hover {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-right: 4rem;
+  margin-right: 2rem;
   z-index: 2;
   color:rgb(248, 211, 0 );
 }
@@ -232,7 +232,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
   h2 {
     font-size: 3rem;

@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
     return (
         <section>
-            <h1>Here's my Contact info</h1>
+            <h1 className="h1-about">Here's my Contact info</h1>
 
             <div className="Button-link">
                 <br />

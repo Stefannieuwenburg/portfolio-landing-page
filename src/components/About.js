@@ -12,7 +12,7 @@ export default function About() {
             Libraries zoals React.js en Redux-toolkit. Binnen zijn passie voor web Developer
             heeft hij zich vooral ontwikkeld in kleinere projecten voor hobby
             clubs. In klein team verband kan Stefan in een snel tempo de website
-            moderniseren met toepassing van React.js Stefan gaat graag de
+            moderniseren met toepassing van React.js Stefan gaat graag nieuwe
             uitdaging aan om nieuwe technieken te gebruiken, zoals Vite en Next van React.
             daar naast volgt die nog online trainingen van FreeCodeCamp.org
             om zich zelf nog meer te ontwikkelen en certificaten te behalen.

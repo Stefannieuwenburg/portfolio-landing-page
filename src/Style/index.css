@@ -279,6 +279,7 @@ section {
 
 .cards img {
   height: 100%;
+  object-fit: cover;
 }
 
 .cards button {
@@ -326,4 +327,5 @@ section {
 
 img, picture {
   max-width: 100%;
+  object-fit: cover;
 }

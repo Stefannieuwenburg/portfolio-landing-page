@@ -12,16 +12,17 @@ import Projects from "./components/Projects";
 
 
 
+
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path="/" element={<Navbar />}>
-                <Route path="/" element={<Home />} />
-                <Route path="Home" element={<Home />} />
+                <Route index element={<Home />} />
                 <Route path="Technologies" element={<Services />} />
                 <Route path="About" element={<About />} />
                 <Route path="Contact" element={<Contact />} />
                 <Route path="Projects" element={<Projects />} />
+                <Route path="*" element={<Home />} />
             </Route>
         </Routes>
     </Router>,

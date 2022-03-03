@@ -6,7 +6,7 @@ export default function About() {
             <h1 className="h1-about">Wie is Stefan Nieuwenburg</h1>
             <br /> 
             Stefan heeft een full stack opleiding gedaan bij Winc Academy.
-            hij heeft zich zelf ontwikkeld tot junior web Developer op het gebied van het uitwerken
+            hij heeft zich zelf ontwikkeld tot web Developer op het gebied van het uitwerken
             en uitvoeren van moderne kleinschalige websites. Deze websites zijn
             reactief en interactief door gebruik van onder andere JavaScript en
             Libraries zoals React.js en Redux-toolkit. Binnen zijn passie voor web Developer

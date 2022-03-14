@@ -4,18 +4,19 @@ export default function About() {
     return (
         <section>
             <h1 className="h1-about">Wie is Stefan Nieuwenburg</h1>
-            <br /> 
-            Stefan heeft een full stack opleiding gedaan bij Winc Academy.
-            hij heeft zich zelf ontwikkeld tot web Developer op het gebied van het uitwerken
-            en uitvoeren van moderne kleinschalige websites. Deze websites zijn
-            reactief en interactief door gebruik van onder andere JavaScript en
-            Libraries zoals React.js en Redux-toolkit. Binnen zijn passie voor web Developer
-            heeft hij zich vooral ontwikkeld in kleinere projecten voor hobby
-            clubs. In klein team verband kan Stefan in een snel tempo de website
-            moderniseren met toepassing van React.js Stefan gaat graag nieuwe
-            uitdaging aan om nieuwe technieken te gebruiken, zoals Vite en Next van React.
-            daar naast volgt die nog online trainingen van FreeCodeCamp.org
-            om zich zelf nog meer te ontwikkelen en certificaten te behalen.
+            <br />
+            Stefan become a full stack developer, he did his training by Winc
+            Academy. He has developed himself into a web Developer in the field
+            of development and running modern small scale websites. These
+            websites are reactive and interactive by using JavaScript and
+            Libraries such as React.js and Redux toolkit. Within his passion for
+            web Developer he has mainly developed himself in smaller projects
+            for hobby site. In a small team, Stefan can quickly access the
+            website modernize with the application of React.js Stefan likes to
+            go the challenge to use new techniques, such as Vite and Next by
+            React. In addition, it also follows online training courses from
+            FreeCodeCamp.org to develop him self to the fullest and to obtain
+            certificates. 
         </section>
     );
 }

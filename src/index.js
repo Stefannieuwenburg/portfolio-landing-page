@@ -9,7 +9,7 @@ import Services from "./components/Technologies";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-
+import Errorpage from "./components/Errorpage"
 
 ReactDOM.render(
     <Router>
@@ -20,7 +20,7 @@ ReactDOM.render(
                 <Route path="About" element={<About />} />
                 <Route path="Contact" element={<Contact />} />
                 <Route path="Projects" element={<Projects />} />
-                <Route path="*" element={<Home />} />
+                <Route path="*" element={<Errorpage />} />
             </Route>
         </Routes>
     </Router>,

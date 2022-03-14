@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return (
         <section>
-            <h1 className="h1-about">Wie is Stefan Nieuwenburg</h1>
+            <h1 className="h1-about">Who is Stefan Nieuwenburg</h1>
             <br />
             Stefan become a full stack developer, he did his training by Winc
             Academy. He has developed himself into a web Developer in the field

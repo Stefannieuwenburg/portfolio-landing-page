@@ -1,4 +1,4 @@
-import wd0 from "../img/wd0.jpg";
+import wd0 from "../img/coffeetogo.png";
 import wd1 from "../img/wd1.jpg";
 import wd2 from "../img/wd2.jpg";
 import wd3 from "../img/wd3.jpg";
@@ -10,7 +10,7 @@ import wd5 from "../img/wd5.jpg";
 
 export default function Projects() {
     const proj1 = () => {
-        window.open("https://github.com/Stefannieuwenburg?tab=repositories");
+        window.open("https://github.com/Stefannieuwenburg/vite-single-page-website-react");
     };
     const proj2 = () => {
         window.open("https://github.com/Stefannieuwenburg?tab=repositories");
@@ -31,7 +31,7 @@ export default function Projects() {
         <div className="works">
             <div className="work-section">
                 <div className="cards">
-                    <img src={wd0} alt="img" />
+                    <img src={wd0} alt="coffeetogo project" />
                     <button onClick={proj1}>Code</button>
                 </div>
 

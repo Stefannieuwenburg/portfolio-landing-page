@@ -1,5 +1,5 @@
 import wd0 from "../img/coffeetogo.png";
-import wd1 from "../img/wd1.jpg";
+import wd1 from "../img/Note.png";
 import wd2 from "../img/wd2.jpg";
 import wd3 from "../img/wd3.jpg";
 import wd4 from "../img/wd4.jpg";
@@ -13,7 +13,7 @@ export default function Projects() {
         window.open("https://github.com/Stefannieuwenburg/vite-single-page-website-react");
     };
     const proj2 = () => {
-        window.open("https://github.com/Stefannieuwenburg?tab=repositories");
+        window.open("https://github.com/Stefannieuwenburg/vite-project-notes-react");
     };
     const proj3 = () => {
         window.open("https://github.com/Stefannieuwenburg?tab=repositories");

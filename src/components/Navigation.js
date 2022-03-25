@@ -13,30 +13,20 @@ export default function Navigation() {
         <nav className="nav">
             <img src={logo} alt="logo" className="logo" /> Portfolio
             <ul className={open ? "nav-links active" : "nav-links"}>
-                <li>
-                    <Link to="/" onClick={showBar}>
-                        Home
-                    </Link>
+                <li onClick={showBar}>
+                    <Link to="/">Home</Link>
                 </li>
-                <li>
-                    <Link to="/technologies" >
-                        Technologies
-                    </Link>
+                <li onClick={showBar}>
+                    <Link to="/technologies">Technologies</Link>
                 </li>
-                <li>
-                    <Link to="/about" >
-                        About
-                    </Link>
+                <li onClick={showBar}>
+                    <Link to="/about">About</Link>
                 </li>
-                <li>
-                    <Link to="/contact" >
-                        Contact
-                    </Link>
+                <li onClick={showBar}>
+                    <Link to="/contact">Contact</Link>
                 </li>
-                <li>
-                    <Link to="/projects" >
-                        Projects
-                    </Link>
+                <li onClick={showBar}>
+                    <Link to="/projects">Projects</Link>
                 </li>
             </ul>
             <i

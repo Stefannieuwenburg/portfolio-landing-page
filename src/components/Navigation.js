@@ -6,9 +6,7 @@ import logo from "../img/logo192.png";
 export default function Navigation() {
     const [open, setOpen] = useState(false);
 
-    // const showBar = () => {
-    //     open(!setOpen);  
-    // }
+    
     return (
         <nav className="nav">
             <img src={logo} alt="logo" className="logo" /> Portfolio

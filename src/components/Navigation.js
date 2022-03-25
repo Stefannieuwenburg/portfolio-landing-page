@@ -7,29 +7,36 @@ export default function Navigation() {
     const [open, setOpen] = useState(false);
 
     const showBar = () => {
-        open(! setOpen);  
+        open(!setOpen);  
     }
     return (
         <nav className="nav">
             <img src={logo} alt="logo" className="logo" /> Portfolio
-            <ul
-                onClick={showBar}
-                className={open ? "nav-links active" : "nav-links"}
-            >
+            <ul className={open ? "nav-links active" : "nav-links"}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link onClick={showBar} to="/">
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/technologies">Technologies</Link>
+                    <Link onClick={showBar} to="/technologies">
+                        Technologies
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link onClick={showBar} to="/about">
+                        About
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link onClick={showBar} to="/contact">
+                        Contact
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link onClick={showBar} to="/projects">
+                        Projects
+                    </Link>
                 </li>
             </ul>
             <i

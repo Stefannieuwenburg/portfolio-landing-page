@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Style/index.css";
-import Navbar from "./Navbar";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import "./Style/index.css";
+
+import Navbar from "./Navbar";
 import Home from "./components/Home";
 import Services from "./components/Technologies";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Errorpage from "./components/Errorpage"
 
 ReactDOM.render(
     <Router>
@@ -19,6 +21,7 @@ ReactDOM.render(
                 <Route path="About" element={<About />} />
                 <Route path="Contact" element={<Contact />} />
                 <Route path="Projects" element={<Projects />} />
+                <Route path="*" element={<Errorpage />} />
             </Route>
         </Routes>
     </Router>,

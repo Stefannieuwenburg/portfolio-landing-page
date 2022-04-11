@@ -1,4 +1,4 @@
-import wd0 from "../img/coffeetogo.png";
+import wd0 from "../img/cafe.png";
 import wd1 from "../img/Note.png";
 import wd2 from "../img/flower.png";
 import wd3 from "../img/blog.png";
@@ -10,7 +10,7 @@ import wd5 from "../img/movie.png";
 
 export default function Projects() {
     const proj0 = () => {
-        window.open("https://github.com/Stefannieuwenburg/vite-single-page-website-react");
+        window.open("https://github.com/Stefannieuwenburg/vite-cafe-project");
     };
     const proj1 = () => {
         window.open("https://github.com/Stefannieuwenburg/vite-project-notes-react");

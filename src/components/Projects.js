@@ -31,33 +31,33 @@ export default function Projects() {
         <div className="works">
             <div className="work-section">
                 <div className="cards">
-                    <img src={wd0} alt="coffeetogo project" />
+                    <img src={wd0} alt="project0" />
                     <button onClick={proj0}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd1} alt="img" />
+                    <img src={wd1} alt="project1" />
                     <button onClick={proj1}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd2} alt="img" />
+                    <img src={wd2} alt="project2" />
                     <button onClick={proj2}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd3} alt="img" />
+                    <img src={wd3} alt="project3" />
                     <button onClick={proj3}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd4} alt="img" />
-                    <button onClick={proj4} >Code</button>
+                    <img src={wd4} alt="project4" />
+                    <button onClick={proj4}>Code</button>
                 </div>
 
                 <div className="cards">
-                    <img src={wd5} alt="img" />
-                    <button onClick={proj5} >Code</button>
+                    <img src={wd5} alt="project5" />
+                    <button onClick={proj5}>Code</button>
                 </div>
             </div>
         </div>

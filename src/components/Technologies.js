@@ -22,9 +22,9 @@ export default function Technologies() {
                     <li>Scss</li>
                     <li>Bootstrap</li>
                     <li>Redux</li>
-                    <li>React.js</li>
+                    <li>React.jsx</li>
                     <li>Github</li>
-                    <li>Node.js</li>
+                    <li>Node</li>
                     <li>Npm</li>
                     <li>API</li>
                     <li>Scrum</li>

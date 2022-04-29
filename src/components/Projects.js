@@ -1,6 +1,6 @@
 import wd0 from "../img/cafe.png";
 import wd1 from "../img/Note.png";
-import wd2 from "../img/flower.png";
+import wd2 from "../img/recipe.png";
 import wd3 from "../img/blog.png";
 import wd4 from "../img/kidsbookshop.png";
 import wd5 from "../img/movie.png";
@@ -16,7 +16,7 @@ export default function Projects() {
         window.open("https://github.com/Stefannieuwenburg/vite-project-notes-react");
     };
     const proj2 = () => {
-        window.open("https://github.com/Stefannieuwenburg/vite-flower-project");
+        window.open("https://github.com/Stefannieuwenburg/vite-recipe-app");
     };
     const proj3 = () => {
         window.open("https://github.com/Stefannieuwenburg/React-blog-site");

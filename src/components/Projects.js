@@ -25,7 +25,7 @@ export default function Projects() {
         window.open("https://github.com/Stefannieuwenburg/React-kids-books-shop");
     };
     const proj5 = () => {
-        window.open("https://github.com/Stefannieuwenburg/movie-database-javascript-api");
+        window.open("https://github.com/Stefannieuwenburg/vite-react-movie-database");
     };
     return (
         <div className="works">

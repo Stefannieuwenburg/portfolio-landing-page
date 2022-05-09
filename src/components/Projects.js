@@ -3,7 +3,7 @@ import wd1 from "../img/Note.png";
 import wd2 from "../img/recipe.png";
 import wd3 from "../img/blog.png";
 import wd4 from "../img/kidsbookshop.png";
-import wd5 from "../img/movie.png";
+import wd5 from "../img/Movie.png";
 
 
 

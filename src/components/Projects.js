@@ -6,8 +6,6 @@ import wd4 from "../img/kidsbookshop.png";
 import wd5 from "../img/movie.png";
 
 
-
-
 export default function Projects() {
     const proj0 = () => {
         window.open("https://github.com/Stefannieuwenburg/vite-cafe-project");

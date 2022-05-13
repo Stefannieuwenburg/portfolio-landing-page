@@ -1,4 +1,4 @@
-# Welcome to  the portfolio from Stefan Nieuwenburg
+# Welcome to the portfolio from Stefan Nieuwenburg
 
 # TECH USED:
 - React
